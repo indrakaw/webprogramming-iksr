@@ -19,3 +19,9 @@ Hal yang dibahas adalah:
 Ini hanya ringkasan. Untuk mengenal lebih lanjut apa itu PHP, fitur, sejarah,
 dan sebagainya, anda bisa kunjungi halaman
 [Wikipedia](https://id.wikipedia.org/wiki/Php) atau [PHP.net](http://php.net)
+
+Sumber daya:
+ - [PHP.net Docs](http://php.net/docs.php) (Official)
+ - [PHP 5 Tutorial](http://www.php5-tutorial.com)
+ - [W3schools PHP 5](http://www.w3schools.com/php)
+ - http://stackoverflow.com
