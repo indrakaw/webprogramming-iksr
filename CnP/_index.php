@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,10 +5,10 @@
     <title>LP3I E-management</title>
   </head>
   <body>
-    <?php
-    include 'headerpb.php';
-    include 'indexcnp.php';
-    include 'footer.php';
-     ?>
+    <iframe name="top" src="headerpb.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth">
+      <p>This page uses iframes, but your browser doesn't support them.</p>
+    </iframe>
+    <iframe name="middle" src="indexcnp.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth"></iframe>
+    <iframe name="bottom" src="footer.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth"></iframe>
   </body>
 </html>

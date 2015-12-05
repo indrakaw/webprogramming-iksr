@@ -2,15 +2,6 @@
  * WTF dengan namanya 'sayangsayang.css'?! Saya heran dengan penulisnya. :^)
  */
 
-.row {
-  overflow: hidden;
-}
-
-.col {
-  float: left;
-}
-
-
 #login-page footer > div {
   font-weight: bold;
   border-top: 1px solid #666;
@@ -88,4 +79,34 @@ header h1.logo:before {
   width: 64px;
   height: 64px;
   content: " ";
+}
+
+/* Datepicker CSS */
+@import url(tanggalpicker.css);
+
+/* BUAT EDIT */
+#editButton {
+  display: block;
+  width: 4%;
+  padding: 5px;
+  border: 2px solid #d0e8f4;
+  background-color: #ecf8fd;
+}
+
+#tampilEdit {
+  width: 97,5%;
+  display: none;
+  padding: 5px;
+  border: 2px solid #fadda9;
+  background-color: #fdf4e1;
+}
+
+/* Simpledead Column grid */
+
+.row {
+  overflow: hidden;
+}
+
+.col {
+  float: left;
 }
