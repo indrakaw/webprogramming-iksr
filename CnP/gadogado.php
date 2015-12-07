@@ -1,4 +1,4 @@
-<?php
+<?php require_once 'setting.php';
 # WTF dengan namanya 'gadogado.php'?! Saya heran dengan penulisnya. :^)
 function filled_out($form_vars) {
   // test that each variable has a value

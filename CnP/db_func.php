@@ -1,4 +1,4 @@
-<?php
+<?php require_once 'setting.php';
 function cari_kodecabang($user) {
   $conn = db_connect();
   $sql = "SELECT kodecabang FROM cyberlogin WHERE usename='$user'";

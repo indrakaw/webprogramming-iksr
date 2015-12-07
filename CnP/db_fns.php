@@ -1,4 +1,4 @@
-<?php
+<?php require_once 'setting.php';
 function db_connect() {
   $result = @mysql_pconnect(CNP_DBHOST, CNP_DBUSER, CNP_DBPASS);
   if (!$result) return false;
