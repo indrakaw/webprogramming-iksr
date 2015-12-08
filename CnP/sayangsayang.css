@@ -149,3 +149,8 @@ ul.menu-list {
 html, body {
     min-height: 100%;
 }
+
+/* Iframe height size*/
+iframe#iheader { height: 75px;}
+iframe#ifooter { height: 16px;}
+iframe#imain { min-height: 240px;}
