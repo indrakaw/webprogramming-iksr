@@ -20,8 +20,8 @@
 
   <body id="login-page">
     <header>
-      <div class="wrapper">
-        <h1 class="logo">E-management LP3I</h1>
+      <div class="wrapper row">
+        <h1 class="logo col">E-management LP3I</h1>
       </div>
     </header>
 

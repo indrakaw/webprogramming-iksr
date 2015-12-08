@@ -67,18 +67,21 @@ body {
 }
 
 header h1.logo {
-  margin: 0px;
-  padding: 8px;
-  font-size: 3em;
+  width: 450px;
+  height: 100px;
+  text-indent: -9999px;
   display: inline-block;
+  background: url(images/emanagement-logo.png) no-repeat;
+  font-size: 0;
 }
 
-header h1.logo:before {
-  background: red;
+header h1.logo-small {
+  width: 338px;
+  height: 75px;
+  text-indent: -9999px;
   display: inline-block;
-  width: 64px;
-  height: 64px;
-  content: " ";
+  background: url(images/emanagement-logo-small.png) no-repeat;
+  font-size: 0;
 }
 
 /* Datepicker CSS */
@@ -109,4 +112,40 @@ header h1.logo:before {
 
 .col {
   float: left;
+}
+
+iframe.fullwidth {
+    width: 100%;
+    border: none;
+}
+
+.menu-list li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu-list a {
+    color: #fff;
+    text-decoration: none;
+    padding: 29px 16px;
+    display: inline-block;
+    font-size: larger;
+}
+
+ul.menu-list {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.row > h1.logo-small {
+    float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+html, body {
+    min-height: 100%;
 }
