@@ -1,8 +1,14 @@
+<?php
+$uid = ((isset($uid))) ? $uid : null ;
+$sesi = ((isset($sesi))) ? $sesi : null ;
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>LP3I E-management</title>
+    <link rel="stylesheet" href="sayangsayang.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="custom.css" type="text/css" charset="utf-8">
   </head>
   <body>
     <iframe name="top" src="headerpb.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth">
