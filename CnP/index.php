@@ -11,10 +11,10 @@ $sesi = ((isset($sesi))) ? $sesi : null ;
     <link rel="stylesheet" href="custom.css" type="text/css" charset="utf-8">
   </head>
   <body>
-    <iframe name="top" id="iheader" src="headerpb.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth">
+    <iframe name="top" id="iheader" src="headerpb.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth" scrolling="no" noresize>
       <p>This page uses iframes, but your browser doesn't support them.</p>
     </iframe>
-    <iframe name="middle" id="imain" src="indexcnp.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth"></iframe>
-    <iframe name="bottom" id="ifooter" src="footer.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth"></iframe>
+    <iframe name="middle" id="imain" src="indexcnp.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth" scrolling="no" noresize></iframe>
+    <iframe name="bottom" id="ifooter" src="footer.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>" class="fullwidth" scrolling="no" noresize></iframe>
   </body>
 </html>

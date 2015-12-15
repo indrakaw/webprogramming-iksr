@@ -35,4 +35,14 @@ $bulan = array('', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli
 $askala = array('', 'Nasional', 'Internasional', 'BUMN', 'BUMD', 'Lokal');
 $sex = array('', 'Laki-laki', 'Perempuan');
 
+// echo halaman gagal, belum login, redirect, meta tag dsb dalam satu fungsi.
+function cetak_meta($type) {
+  switch ($type) {
+    case 1:
+      $url = ;
+    break;
+    $meta = "<meta http-equiv='refresh' content='1;$url'>";
+  }
+  return echo $meta;
+}
  ?>
