@@ -14,6 +14,7 @@ $sesi = ((isset($sesi))) ? $sesi : null ;
       <li><a href="tools.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>">Tools</a></li>
       <li><a href="report_monlty.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>">Report</a></li>
       <li><a href="logout.php?uid=<?php echo $uid. "&sesi=" .$sesi ; ?>">Logout</a></li>
+      <li>Welocome <?php echo $HTTP_SESSION_VARS['namacnp'] ?></li>
     </ul>
   </div>
 </header>
